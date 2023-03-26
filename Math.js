@@ -39,3 +39,22 @@ function prime(){
     document.getElementById("name1").innerHTML = " Thank You " + p + " Visit Again.";
 
 }
+
+function factor(){
+    alert("Now you will get your factors of that given number");
+    var fac= document.getElementById("factor").value;
+
+    for(var i=1;i<fac;i++){
+
+        if(fac%i==0){
+            document.getElementById("factorAns").innerHTML += i + " " ;
+        }
+    }
+
+    document.getElementById("name1").innerHTML = " Thank You " + p + " Visit Again.";
+    document.getElementById("are").innerHTML= "Are the Factors";
+}
+
+function reset(){
+
+}
