@@ -13,7 +13,7 @@
                 <div class="col-3">
                     <h1 class="Display-1 text-success">Maths Trick</h1>
                 </div>
-                <div class="col bg-danger"><p class="h3 text-white" id="name1" style="margin-left:220px; margin-top: 10px;;"></p></div>
+                <div class="col bg-danger"><p class="h3 text-white" id="name1" style="margin-left:220px; margin-top: 10px;"></p></div>
             </div>
         </div>
 
@@ -22,8 +22,8 @@
                 <h1>Want to Find <u class="text-danger">Table</u></h1>
                 <h2>Enter your number to find table</h2>
                 <input type="number" id="table" placeholder="Enter Your Number">
-                <button type="button" class="btn btn-outline-dark" onclick="table()">Get Answer</button>
-                <a href="C:\Users\91725\Desktop\MyPortfollio\Math.com\Basic.html" class="btn btn-outline-danger">Relod</a>
+                <input type="button" class="btn btn-outline-dark" onclick="table();" value="Get Answer"/>
+                <a type="reset" class="btn btn-outline-dark" href="https://cr7mujassam.github.io/Math.com/Basic.html">Reset</a>
             </div>
             <div class="col bg-white rounded border border-info" style="margin-right:5cm;">
                 <ul>
@@ -33,13 +33,30 @@
             </div>
         </div>
 
+        <div class="jumbotron" style="margin-left:3cm; margin-right:3cm; background-color: paleturquoise;">
+            <span class="text-info"><h4>Want to Know <span class="text-secondary">Factors</span></h4></span>
+            <div class="row">
+                <div class="col-5 bg-white rounded border border-info" style="padding: auto; margin-left: 20px;">
+                    <p class="display-4 text-success">Enter Your Number</p>
+                    <input type="number" placeholder="Enter Your Number" id="factor">
+                    <button type="button" class="btn btn-outline-success" style="margin-bottom: 10px;" onclick="factor();">Get Answer</button>
+                    <a href="https://cr7mujassam.github.io/Math.com/Basic.html"><button type="submit" class="btn btn-outline-success" style="margin-bottom: 10px;">Reset</button></a>
+                </div>
+                <div class="col-3"></div>
+                <div class="bg-dark col-3 rounded border border-info bg-white">
+                    <p class="h3 text-primary" id="factorAns" style=" margin: 50px 40px 40px 30px;"></p>
+                    <p id="are" class="h3 text-info"></p>
+                </div>
+            </div>
+        </div>
+
         <div class="jumbotron" style="margin-left:3cm; margin-right:3cm; background-image:url(ms.jpg); background-repeat: no-repeat; background-size:1200px">
             <span class="text-info"><h4>Want to Know <span class="text-white">Prime</span> Number</h4></span>
             <div class="row">
                 <div class="col-5 bg-white rounded border border-info" style="padding: auto; margin-left: 20px;">
                     <p class="display-4 text-success">Enter Your Number</p>
                     <input type="number" placeholder="Enter Your Number" id="prime">
-                    <button type="button" class="btn btn-outline-success" style="margin-bottom: 10px;" onclick="prime()">Get Answer</button>
+                    <button type="button" class="btn btn-outline-success" style="margin-bottom: 10px;" onclick="prime();">Get Answer</button>
                 </div>
                 <div class="col-3"></div>
                 <div class="bg-dark col-3 rounded border border-info bg-white">
